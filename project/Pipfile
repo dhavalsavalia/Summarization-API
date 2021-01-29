@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 fastapi = "==0.62.0"
 uvicorn = "==0.13.1"
+asyncpg = "==0.21.0"
+tortoise-orm = "==0.16.18"
 
 [dev-packages]
 jedi = "*"
